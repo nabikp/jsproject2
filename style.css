@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 60%;
+    width: 60%;
+}
+
+.imagediv {
+    position: absolute;
+    width: 200px;
+    height: 270px;
+    overflow: hidden;
+}
+
+.imagediv image {
+    transform: translate(100%) width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
